@@ -1,0 +1,17 @@
+/*
+ *EscapeProgram.java
+ *---------------------------
+ *This program escapes Strings. 
+ */
+
+public class EscapeProgram {
+
+	public static void main(String[] args) {
+		
+		System.out.print("This is the First Line.\n");//After this a New Line.
+		System.out.print("This isn't the \"Third Line\", it's the Second Line.\n");//Quotation Marks and New Line.
+		System.out.print("\tThis is the Third Line.");//Tabulation.
+
+	}
+
+}
