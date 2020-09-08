@@ -14,8 +14,13 @@ public class Date {
 		String day, month;
 		int date, year;
 		
-		printAmerican("Tuesday", "September", 8, 2020);
-		printEuropean("Tuesday", 8, "September", 2020);
+		day = "Tuesday";
+		month = "September";
+		date = 8;
+		year = 2020;
+		
+		printAmerican(day, month, date, year);
+		printEuropean(day, date, month, year);
 	}
 	
 	public static void printAmerican(String day, String month, int date, int year) {
